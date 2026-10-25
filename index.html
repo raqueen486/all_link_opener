@@ -36,6 +36,21 @@
 
       urls.forEach(url => window.open(url, '_blank', 'noopener'));
     }
+
+    // 페이지가 열릴 때 주소창(?links=...)에 전달된 링크가 있으면 자동으로 입력칸에 채워넣기
+    window.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const sharedLinks = params.get('links');
+      
+      if (sharedLinks) {
+        const textarea = document.getElementById('links');
+        if (textarea) {
+          textarea.value = sharedLinks;
+        }
+        // 주소창의 긴 ?links=... 꼬리표를 깔끔하게 지우기
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
+    });
   </script>
 </body>
 </html>
