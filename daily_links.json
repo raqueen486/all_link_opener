@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-27 07:15:26",
-  "dynamic_count": 52,
-  "total_count": 58,
+  "updated_at": "2026-10-27 07:25:37",
+  "dynamic_count": 54,
+  "total_count": 60,
   "links": [
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026101509_2610_1256",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026101901_2610_1645",
@@ -41,6 +41,7 @@
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261026_2610_1407",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261026_2611_1_1837",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261026_1409",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026101903_2610_1703",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026102502_2610_1720",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261026_2610_1037",
@@ -54,7 +55,8 @@
     "https://ofw.adison.co/u/naverpay/ads/730013",
     "https://ofw.adison.co/u/naverpay/ads/889076",
     "https://ofw.adison.co/u/naverpay/ads/67823",
-    "https://campaign2.naver.com/npay/v2/click-point/?eventId",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=",
+    "https://external-token.pay.naver.com/entry/pincrux?gd",
     "https://home.pay.naver.com",
     "https://new-m.pay.naver.com/historybenefit/home",
     "https://point.pay.naver.com/pc/main?category=quickreward",
