@@ -242,4 +242,30 @@ def scrape_ppomppu() -> list:
                 return links
     return links
 
-if __name__ ==
+if __name__ == "__main__":
+    all_dynamic = []
+    
+    for func in (scrape_clien, scrape_etoland, scrape_ppomppu):
+        try:
+            found = func()
+            for link in found:
+                if link not in all_dynamic:
+                    all_dynamic.append(link)
+        except Exception as e:
+            print(f"오류 무시하고 다음 사이트 진행: {e}")
+
+    final_links = all_dynamic + [f for f in FIXED_LINKS if f not in all_dynamic]
+
+    data = {
+        "updated_at": now_kst.strftime("%Y-%m-%d %H:%M:%S"),
+        "dynamic_count": len(all_dynamic),
+        "total_count": len(final_links),
+        "links": final_links
+    }
+
+    with open("daily_links.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print(f"\n==========================================")
+    print(f"✅ 총 {len(final_links)}개 링크 저장 완료! (신규 추출: {len(all_dynamic)}개 + 고정 6개)")
+    print(f"==========================================")
