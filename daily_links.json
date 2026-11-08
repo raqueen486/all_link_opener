@@ -1,8 +1,15 @@
 {
-  "updated_at": "2026-11-08 04:29:55",
-  "dynamic_count": 0,
-  "total_count": 6,
+  "updated_at": "2026-11-08 10:36:13",
+  "dynamic_count": 7,
+  "total_count": 13,
   "links": [
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_global_japan_261108",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_facesign_261108",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261108",
+    "https://ofw.adison.co/u/naverpay/ads/1086706",
+    "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
+    "https://ofw.adison.co/u/naverpay/ads/730013",
+    "https://ofw.adison.co/u/naverpay/ads/67823",
     "https://home.pay.naver.com",
     "https://new-m.pay.naver.com/historybenefit/home",
     "https://point.pay.naver.com/pc/main?category=quickreward",
