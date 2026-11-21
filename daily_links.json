@@ -1,12 +1,11 @@
 {
-  "updated_at": "2026-11-21 20:29:14",
-  "dynamic_count": 8,
-  "total_count": 14,
+  "updated_at": "2026-11-22 05:57:26",
+  "dynamic_count": 7,
+  "total_count": 13,
   "links": [
-    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026112101_2611_04_1604",
-    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_luckyball_261121",
-    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261121",
-    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_mycar_261121",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_pension_261122",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261122",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_score2_261122",
     "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
     "https://ofw.adison.co/u/naverpay/ads/730013",
     "https://ofw.adison.co/u/naverpay/ads/889076",
